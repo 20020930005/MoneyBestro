@@ -1,0 +1,42 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  path_provider: ^2.0.12
+  open_file: ^3.2.1
+  intl: ^0.18.0
+  shared_preferences: ^2.0.15
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  provider: ^6.1.2
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.3.0
+  cloud_firestore: ^4.17.5
+  permission_handler: ^10.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  hive_generator: ^1.1.0
+  build_runner: ^2.3.3 
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+          weight: 700

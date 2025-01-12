@@ -1,2 +1,3 @@
-# MoneyBestro
-Financial daily data recording app
+# flutter_application_1
+
+A new Flutter project.
